@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.head-section{
+    text-align: center;
+    color: white;
+    background-image: url(images/help-poor.bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.head-section h1{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-size: 45px;
+    
+}
+.head-section p{
+    font-size: 22px;
+    padding-bottom: 40px;
+}
+.head-section a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: tomato;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+
+}
+.donate-section{
+     text-align: center;
+     margin-top: 100px;
+}
+.donate-section h1{
+    font-size: 40px;
+}
+.donate-section p{
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+.amount-selecting{
+    text-decoration: none;
+    color: rgb(82, 78, 78);
+    font-size: 30px;
+    font-weight: 700;
+    margin-right:5px;
+    background-color: rgb(234, 232, 232);
+    padding: 25px 25px;
+    border-radius: 5px;
+    margin-bottom: 300px;
+}
+#default-amount{
+    color: tomato;
+    background-color: rgb(244, 200, 192);
+    border: 2px solid tomato;
+}
+.other-amount{
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    width: 715px;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 18px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+#donate-now-btn{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: tomato;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+
+}
+.Donate-Plan{
+    margin-top: 120px;
+    text-align: center;
+}
+.Donate-Plan h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.Donate-Plan p{
+    font-size: 22px;
+}
+.donate-plan-sector{
+    display: flex;
+    width: 85%;
+    margin:  50px auto;
+    margin-bottom: 150px;
+}
+
+.sector-details{
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    background-color: rgb(210, 204, 204);
+    padding: 80px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+#sector-details-center{
+    background-color: rgb(194, 170, 170);
+}
+#sector-details-right{
+    background-color: rgb(203, 219, 164);
+}
+.sector-details img{
+    width: 50px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.sector-details h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.sector-details p{
+    font-size: 18px;
+}
+
+.news{
+    width: 85%;
+    margin: 0 auto;
+}
+.news h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.news-parent{
+    
+    display: flex;
+}
+.news-child1{
+    width: 45%;
+    margin-right: 20px;
+}
+.news-child1 img{
+    width: 100%;
+    height: 360px;
+}
+.news-child1 a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: tomato;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+
+}
+.news-child1 p{
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.news-child2{
+    width: 50%;
+    margin-left: 20px;
+}
+.news-child2 p{
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.news-child2 a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: tomato;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+
+}
+.news-child2 img{
+    width: 100%;
+    height: 360px;
+}
+
+.get-update{
+    margin-top: 150px;
+    text-align: center;
+}
+.get-update h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.get-update p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.input-section{
+    margin: 0px auto;
+    background-color: rgb(203, 219, 164);
+    width: 650px;
+    padding: 60px 20px;
+}
+#emil{
+    width: 250px;
+    padding: 13px 18px;
+    border-style: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(204, 203, 203);
+    color: #000;
+
+}
+#subscribe{
+    margin-left: -5px;
+    padding: 13px 0px;
+    border-style: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 160px;
+    background-color: tomato;
+    color: white;
+}
+footer{
+    width: 100%;
+    margin-top: 110px;
+    background-color: #000;
+    text-align: center;
+    padding: 40px 0px;
+}
+footer h2{
+    color: tomato;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+footer p{
+    color: #fff;
+    font-size: 16px;
+
+}
